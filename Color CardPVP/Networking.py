@@ -66,11 +66,7 @@ class recieving():
         # Closes Socket
         self.UDPSock.close()
         os._exit()
+other_ip = " " #Put ip address of other person here
 
-#Sender = sending("10.20.12.65")
-#Sender = sending("10.20.12.209")
-#Sender = sending("10.20.12.208")
-
-
-Sender = sending("192.168.40.5")
+Sender = sending(other_ip)
 Recieve = recieving()
